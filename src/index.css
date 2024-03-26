@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(rgba(27, 31, 81, 0.505), rgba(36, 35, 78, 0.495)), url('./assets/bg5.jpg');
+  }
+  .main1 {
+    min-height: calc(100% - 100px);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: contain;
+  }
+}

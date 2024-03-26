@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="shortcut icon" href="./assets/flat.png" type="image/x-icon">
+    <title>Todo | jquery</title>
+</head>
+<body class="text-white h-screen w-screen">
+    <div class="main w-[100%] h-[100%]">
+
+        <div class="nav h-[100px] w-[100%] bg-[#363636] flex justify-center items-center">
+            <p class="text-3xl"><span class="font-semibold">TODO</span> by JQuery</p>
+        </div>
+
+        <div class="main1 w-[100%] flex flex-col justify-center items-center gap-10">
+            <form id="myForm" class="w-[50%] h-[50px] flex justify-center items-center">
+                <input class="textInput w-[85%] h-[100%] px-3 text-black text-2xl outline-none rounded-tl-[10px] rounded-bl-[10px]" placeholder="Type Password..." type="password" name="password" id="InputText">
+                <input class="textInput1 hidden w-[85%] h-[100%] px-3 text-black text-2xl outline-none rounded-tl-[10px] rounded-bl-[10px]" placeholder="Type Password" type="text" name="text" id="InputText1">
+                <div class="eye w-[40px] flex justify-center items-center flex-shrink-0 h-[100%] bg-white">
+                    <div class="eyeBox w-[25px] h-[25px]">
+                        <img class="closed" src="./assets/eyeclose.png" alt="">
+                        <img class="opened hidden" src="./assets/eyeOpen.png" alt="">
+                    </div>
+                </div>
+                <input class="w-[80px] h-[100%] bg-black rounded-tr-[10px] rounded-br-[10px] flex-shrink-0" type="submit" value="Check">
+            </form>
+
+            <p class="pvala text-xl">Password strength : <span class="score">n/a</span></p>
+
+            
+
+        </div>
+        
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script async type="text/javascript" src="https://cdn.enzoic.com/js/enzoic.min.js" />
+</body>
+</html>
